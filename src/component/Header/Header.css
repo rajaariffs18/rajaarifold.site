@@ -1,0 +1,32 @@
+.col-2{
+    display: flex;
+    flex: 1;
+    flex-direction: row; 
+    justify-content : space-between;
+}
+.brand{
+    /* flex: 1; */
+    color: #ff79c6;
+    font-size: 30px;
+    /* justify-content : flex-start; */
+
+}
+
+.social-media{
+    /* flex: 1; */
+    /* justify-content: flex-end; */
+}
+
+.deskripsi{
+    color: white;
+    font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) { 
+    .col-2{
+        flex-direction: column; 
+        /* justify-content : space-between; */
+    }
+}

@@ -1,0 +1,36 @@
+.judul{
+    color: #ff79c6;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.judul:hover{
+    color: #bd93f9;
+}
+
+.date{
+    color: #bd93f9;
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    font-size: 15px
+}
+
+.deskripsi-post{
+    color: white
+}
+
+.card{
+    margin-bottom: 25px;
+}
+
+.tag{
+    margin-top: 15px;
+}
+
+.item-tag{
+    background: #bd93f9;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 15px;
+    /* margin-top: 25px; */
+}
